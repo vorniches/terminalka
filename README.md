@@ -13,7 +13,7 @@ GPT-3 Davinci Terminal Chatbot.
 
 ## Note
 
-You can get your api_key by signing up on [OpenAI website](https://beta.openai.com/signup)
+You can get your api_key by signing up on [OpenAI website](https://beta.openai.com/signup).
 
 This script uses python `openai` library to interact with OpenAI GPT3-Davinci API.
 
