@@ -21,7 +21,7 @@ The script runs an infinite loop where it takes user input and sends it to the O
 
 ## Contributing
 
-If you find a bug or have an idea for a new feature, please open an issue or pull request on the [GitHub repository](https://github.com/vorniches/popindex).
+If you find a bug or have an idea for a new feature, please open an issue or pull request on the [GitHub repository](https://github.com/vorniches/terminalka).
 
 ## License
 
