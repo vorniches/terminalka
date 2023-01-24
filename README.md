@@ -25,4 +25,4 @@ If you find a bug or have an idea for a new feature, please open an issue or pul
 
 ## License
 
-The `popindex` is released under the [MIT License](https://opensource.org/licenses/MIT).
+The `terminalka` is released under the [MIT License](https://opensource.org/licenses/MIT).
