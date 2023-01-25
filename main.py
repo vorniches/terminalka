@@ -7,6 +7,7 @@ def authenticate():
 
 def chat():
     prompt = input("You can now enter your prompt: ")
+    print("Waiting for response...")
     completions = openai.Completion.create(
         model="text-davinci-003",
         prompt=prompt,
