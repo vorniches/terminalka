@@ -8,7 +8,7 @@ def authenticate():
 def chat():
     prompt = input("You can now enter your prompt: ")
     completions = openai.Completion.create(
-        engine="davinci",
+        model="text-davinci-003",
         prompt=prompt,
         max_tokens=1024,
         n=1,
