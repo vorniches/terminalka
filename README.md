@@ -6,7 +6,7 @@ GPT-3 Davinci Terminal Chatbot.
 
 1. Make sure you have Python 3 installed.
 2. Clone this repository.
-3. Install the required libraries by running `pip install openai`.
+3. Install the required libraries by running `pip install -r requirements.txt`.
 4. Run `python main.py` in your terminal.
 5. Enter your OpenAI API key.
 6. Start chatting!
