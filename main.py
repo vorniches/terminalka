@@ -1,8 +1,14 @@
 import openai
+import os
+from dotenv import load_dotenv
 
 
 def authenticate():
-    return input("Please enter your OpenAI API key: ")
+    if os.path.exists('.env'):
+        load_dotenv()
+        return os.getenv("API_KEY")
+    else:
+        return input("Please enter your OpenAI API key: ")
 
 
 def chat():
