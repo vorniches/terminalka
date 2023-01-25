@@ -1,6 +1,4 @@
 import openai
-import os
-from dotenv import load_dotenv
 from authentication import authenticate
 from chat import chat
 

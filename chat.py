@@ -1,5 +1,4 @@
 import openai
-from authentication import authenticate
 
 
 def chat():
