@@ -1,6 +1,6 @@
 # terminalka
 
-GPT-3 Davinci Terminal Chatbot.
+OpenAI `gpt-3.5-turbo` model-based terminal chatbot.
 
 ## Usage
 
