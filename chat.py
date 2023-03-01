@@ -4,14 +4,10 @@ import openai
 def chat():
     prompt = input("You can now enter your prompt: ")
     print("Waiting for response...")
-    completions = openai.Completion.create(
-        model="text-davinci-003",
-        prompt=prompt,
-        max_tokens=1024,
-        n=1,
-        stop=None,
-        temperature=0.5,
+    completion = openai.ChatCompletion.create(
+        model="gpt-3.5-turbo",
+        messages=[{"role": "user", "content": prompt}]
     )
 
-    message = completions.choices[0].text
+    message = completion.choices[0].message.content
     print(message)
