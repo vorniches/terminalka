@@ -1,6 +1,6 @@
 # terminalka
 
-OpenAI `gpt-3.5-turbo` model-based terminal chatbot.
+A simple way to use OpenAI `gpt-4` API in your terminal.
 
 ## Usage
 
@@ -15,7 +15,7 @@ OpenAI `gpt-3.5-turbo` model-based terminal chatbot.
 
 You can get your api_key by signing up on [OpenAI website](https://beta.openai.com/signup).
 
-This script uses python `openai` library to interact with OpenAI `gpt-3.5-turbo` API.
+This script uses python `openai` library to interact with OpenAI `gpt-4` API.
 
 The script runs an infinite loop where it takes user input and sends it to the OpenAI API and prints the response.
 
