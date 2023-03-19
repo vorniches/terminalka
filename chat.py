@@ -1,13 +1,17 @@
 import openai
-
+import sys
 
 def chat():
-    prompt = input("You can now enter your prompt: ")
-    print("Waiting for response...")
-    completion = openai.ChatCompletion.create(
-        model="gpt-4",
-        messages=[{"role": "user", "content": prompt}]
-    )
+    while True:
+        prompt = input("You can now enter your prompt: ")
+        if prompt.lower() == "exit()":
+            print("Closing the app...")
+            sys.exit()  # Terminate the program
+        print("Waiting for response...")
+        completion = openai.ChatCompletion.create(
+            model="gpt-3.5-turbo-0301",
+            messages=[{"role": "user", "content": prompt}]
+        )
 
-    message = completion.choices[0].message.content
-    print(message)
+        message = completion.choices[0].message.content
+        print(message)
